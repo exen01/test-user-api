@@ -1,5 +1,6 @@
 package com.exen.testTask.service;
 
+import com.exen.testTask.exception.UserNotFoundException;
 import com.exen.testTask.model.Users;
 import com.exen.testTask.repo.UserRepo;
 import lombok.AllArgsConstructor;
@@ -21,11 +22,19 @@ public class UserServiceImpl implements UserService {
 
     @Override
     public Users findById(long id) {
+        if (!userRepo.findById(id).isPresent()) {
+            throw new UserNotFoundException("User does not exist");
+        }
+
         return userRepo.findById(id).get();
     }
 
     @Override
     public Map<String, String> updateUser(long id) {
+        if (!userRepo.findById(id).isPresent()) {
+            throw new UserNotFoundException("User does not exist");
+        }
+
         Users user = userRepo.findById(id).get();
 
         Map<String, String> updateResponse = new HashMap<>();
