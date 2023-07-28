@@ -4,11 +4,11 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="b4316d78-699e-4cb4-8233-e51302a54c8a" name="Changes" comment="Add user status update method&#10;Add find user by id method">
-      <change afterPath="$PROJECT_DIR$/testTask/src/main/java/com/exen/testTask/exception/UserException.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/testTask/src/main/java/com/exen/testTask/exception/UserExceptionHandler.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/testTask/src/main/java/com/exen/testTask/exception/UserNotFoundException.java" afterDir="false" />
+    <list default="true" id="b4316d78-699e-4cb4-8233-e51302a54c8a" name="Changes" comment="Add user not found exception">
+      <change afterPath="$PROJECT_DIR$/testTask/src/main/java/com/exen/testTask/exception/UserExistingEmailException.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/testTask/src/main/java/com/exen/testTask/exception/UserExceptionHandler.java" beforeDir="false" afterPath="$PROJECT_DIR$/testTask/src/main/java/com/exen/testTask/exception/UserExceptionHandler.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/testTask/src/main/java/com/exen/testTask/repo/UserRepo.java" beforeDir="false" afterPath="$PROJECT_DIR$/testTask/src/main/java/com/exen/testTask/repo/UserRepo.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/testTask/src/main/java/com/exen/testTask/service/UserServiceImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/testTask/src/main/java/com/exen/testTask/service/UserServiceImpl.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -77,7 +77,15 @@
       <option name="project" value="LOCAL" />
       <updated>1690447757748</updated>
     </task>
-    <option name="localTasksCounter" value="3" />
+    <task id="LOCAL-00003" summary="Add user not found exception">
+      <option name="closed" value="true" />
+      <created>1690448861468</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1690448861468</updated>
+    </task>
+    <option name="localTasksCounter" value="4" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -94,6 +102,7 @@
   <component name="VcsManagerConfiguration">
     <MESSAGE value="Add database connection&#10;Add user model class&#10;Add user controller with get and add methods&#10;Add user repository" />
     <MESSAGE value="Add user status update method&#10;Add find user by id method" />
-    <option name="LAST_COMMIT_MESSAGE" value="Add user status update method&#10;Add find user by id method" />
+    <MESSAGE value="Add user not found exception" />
+    <option name="LAST_COMMIT_MESSAGE" value="Add user not found exception" />
   </component>
 </project>

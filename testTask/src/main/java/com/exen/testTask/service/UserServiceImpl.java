@@ -1,5 +1,6 @@
 package com.exen.testTask.service;
 
+import com.exen.testTask.exception.UserExistingEmailException;
 import com.exen.testTask.exception.UserNotFoundException;
 import com.exen.testTask.model.Users;
 import com.exen.testTask.repo.UserRepo;
@@ -16,6 +17,10 @@ public class UserServiceImpl implements UserService {
 
     @Override
     public Long save(Users user) {
+        if (user.getEmail().equals(userRepo.findByEmail(user.getEmail()).get().getEmail())) {
+            throw new UserExistingEmailException("User with this email already exists");
+        }
+
         long id = userRepo.save(user).getId();
         return id;
     }
