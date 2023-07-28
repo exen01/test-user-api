@@ -4,14 +4,9 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="b4316d78-699e-4cb4-8233-e51302a54c8a" name="Changes" comment="Add user existing email exception">
-      <change afterPath="$PROJECT_DIR$/testTask/src/main/java/com/exen/testTask/response/ResponseHandler.java" afterDir="false" />
+    <list default="true" id="b4316d78-699e-4cb4-8233-e51302a54c8a" name="Changes" comment="Add response handler&#10;Rename user model class">
+      <change afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/testTask/src/main/java/com/exen/testTask/controller/UserController.java" beforeDir="false" afterPath="$PROJECT_DIR$/testTask/src/main/java/com/exen/testTask/controller/UserController.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/testTask/src/main/java/com/exen/testTask/model/Users.java" beforeDir="false" afterPath="$PROJECT_DIR$/testTask/src/main/java/com/exen/testTask/model/User.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/testTask/src/main/java/com/exen/testTask/repo/UserRepo.java" beforeDir="false" afterPath="$PROJECT_DIR$/testTask/src/main/java/com/exen/testTask/repo/UserRepo.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/testTask/src/main/java/com/exen/testTask/service/UserService.java" beforeDir="false" afterPath="$PROJECT_DIR$/testTask/src/main/java/com/exen/testTask/service/UserService.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/testTask/src/main/java/com/exen/testTask/service/UserServiceImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/testTask/src/main/java/com/exen/testTask/service/UserServiceImpl.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -95,7 +90,15 @@
       <option name="project" value="LOCAL" />
       <updated>1690532624365</updated>
     </task>
-    <option name="localTasksCounter" value="5" />
+    <task id="LOCAL-00005" summary="Add response handler&#10;Rename user model class">
+      <option name="closed" value="true" />
+      <created>1690534341784</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1690534341784</updated>
+    </task>
+    <option name="localTasksCounter" value="6" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -114,6 +117,7 @@
     <MESSAGE value="Add user status update method&#10;Add find user by id method" />
     <MESSAGE value="Add user not found exception" />
     <MESSAGE value="Add user existing email exception" />
-    <option name="LAST_COMMIT_MESSAGE" value="Add user existing email exception" />
+    <MESSAGE value="Add response handler&#10;Rename user model class" />
+    <option name="LAST_COMMIT_MESSAGE" value="Add response handler&#10;Rename user model class" />
   </component>
 </project>
