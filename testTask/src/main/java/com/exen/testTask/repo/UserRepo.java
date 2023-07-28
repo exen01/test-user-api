@@ -1,12 +1,12 @@
 package com.exen.testTask.repo;
 
-import com.exen.testTask.model.Users;
+import com.exen.testTask.model.User;
 import org.springframework.data.jpa.repository.JpaRepository;
 
 import java.util.Optional;
 
-public interface UserRepo extends JpaRepository<Users, Long> {
-    Optional<Users> findById(Long id);
+public interface UserRepo extends JpaRepository<User, Long> {
+    Optional<User> findById(Long id);
 
-    Optional<Users> findByEmail(String email);
+    Optional<User> findByEmail(String email);
 }
